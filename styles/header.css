@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  transition: all 0.3s;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  padding-top: 2.1875rem;
+  padding-bottom: 0.625rem;
+  min-height: 2.125rem;
+}
+.header__container ul {
+  display: flex;
+  gap: 0.625rem;
+}
+.header__container .header__features {
+  display: flex;
+  gap: 0.625rem;
+}
+.header__container .header__logo {
+  font-family: Lato;
+  font-size: 2.25rem;
+  font-weight: 500;
+  padding-right: 3.75rem;
+}
+.header__container .button--dark {
+  background-color: #263238;
+  border: 0.0625rem solid #FFF;
+}/*# sourceMappingURL=header.css.map */
